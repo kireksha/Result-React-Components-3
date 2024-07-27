@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "Roboto";
+	src:
+		local("Roboto"),
+		url("../fonts/Roboto-Regular.woff2") format("woff2"),
+		url("../fonts/Roboto-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src:
+		local("Roboto"),
+		url("../fonts/Roboto-Italic.woff2") format("woff2"),
+		url("../fonts/Roboto-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src:
+		local("Roboto"),
+		url("../fonts/Roboto-Light.woff2") format("woff2"),
+		url("../fonts/Roboto-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src:
+		local("Roboto"),
+		url("../fonts/Roboto-LightItalic.woff2") format("woff2"),
+		url("../fonts/Roboto-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+}
+
+* {
+	background-color: transparent;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 32px;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	transition: all .1s ease-in-out;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #d3d3d3;
+}
+
+button:active {
+	opacity: .8;
+	box-shadow: 0.3rem 0.1rem 0.1rem #d3d3d3;
+}

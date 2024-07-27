@@ -1,0 +1,29 @@
+.isLightTheme {
+	color: #181818;
+}
+
+.isDarkTheme {
+	color: white;
+}
+
+.theme-color-btn {
+	top: 3rem;
+	left: 3rem;
+	position: absolute;
+	border: 1px solid #181818;
+	border-radius: 5px;
+	min-width: 150px;
+	min-height: 50px;
+}
+
+.theme-color-btn:hover {
+	padding-left: 2rem;
+}
+
+.theme-color-btn.isDarkTheme {
+	border-color: white;
+}
+
+.theme-color-btn.isDarkTheme:hover {
+	background-color: rgba(245, 245, 245, 0.5);
+}
